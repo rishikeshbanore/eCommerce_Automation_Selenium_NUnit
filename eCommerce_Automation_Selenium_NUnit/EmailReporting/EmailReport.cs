@@ -9,8 +9,8 @@ namespace eCommerce_Automation_Selenium_NUnit
         public void sendEmail(string Recepient_1, string Recepient_2, string Recepient_3, string Recepient_4)
         {
             MailMessage mail = new MailMessage();
-            SmtpClient SmtpServer = new SmtpClient("mail2.iaea.org"); // Configure email client specific to organisation
-            mail.From = new MailAddress("r.banore@iaea.org"); //Configure email sending generic address
+            SmtpClient SmtpServer = new SmtpClient(""); // Configure email client specific to organisation
+            mail.From = new MailAddress(""); //Configure email sending generic address
 
             mail.To.Add(Recepient_1);
             mail.To.Add(Recepient_2);

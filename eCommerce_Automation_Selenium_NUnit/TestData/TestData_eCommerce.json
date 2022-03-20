@@ -1,0 +1,20 @@
+{
+  "State": "Arizona",
+  "Country": "United States",
+  "Attachment1": "Attachment1.jpg",
+  "Attachment2": "Attachment2.pdf",
+  "Text_HomePage_Verification": "",
+  "Text_Board_Title": "",
+  "Text_Task_Title": "Task_001",
+  "Text_List_Title_1": "To do",
+  "Text_List_Title_2": "Doing",
+  "Text_List_Title_3": "Done",
+  "Text_List_Title_4": "Deployed To Production.",
+  "Text_Edit_Card": "Completed as a part of Task ZERO and Deployed to Production.",
+  "Home_Page_Title": "My account - My Store",
+  "Search_Result_Count": "Showing 1 - 1 of 1 items",
+  "Text_CheckOut_Page": "Total",
+  "Price": "$29.00",
+  "Text_Product_Delete": "Your shopping cart is empty.",
+  "Text_Order_Confirmation": "Your order on My Store is complete"
+}

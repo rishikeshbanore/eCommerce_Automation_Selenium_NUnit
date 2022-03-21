@@ -40,6 +40,12 @@
     <None Update="Config\VSTSConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="TestData\Attachment1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\Attachment2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\TestData_eCommerce.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

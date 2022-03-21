@@ -1,0 +1,18 @@
+{
+  "Selenium_ApplicationName": "eCommerce",
+  "Selenium_Environment": "Production",
+  "Selenium_Browser": "chrome",
+  "Selenium_URL": "http://automationpractice.com/index.php",
+  "Selenium_EmailReport": "Yes",
+  "Selenium_ReportWriting": "Yes",
+  "Selenium_ReportLocation": "TestReport",
+  "Selenium_ReportName": "eCommerce_UI_Automation Report",
+  "Selenium_Recipient1": "orgnizationemailaddress",
+  "Selenium_Recipient2": "orgnizationemailaddress",
+  "Selenium_Recipient3": "orgnizationemailaddress",
+  "Selenium_Recipient4": "orgnizationemailaddress",
+  "Selenium_ScreenShotLocation": "Screenshots",
+  "Selenium_UserName": "testautomationuservienna",
+  "Selenium_Email": "testautomationuservienna@gmail.com",
+  "Selenium_Password": "QWERTY"
+}

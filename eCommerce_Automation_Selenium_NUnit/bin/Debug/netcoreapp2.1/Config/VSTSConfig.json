@@ -1,0 +1,18 @@
+{
+  "Selenium_ApplicationName": "__Selenium_ApplicationName__",
+  "Selenium_Environment": "__Selenium_Environment__",
+  "Selenium_Browser": "__Selenium_Browser__",
+  "Selenium_URL": "__Selenium_URL__",
+  "Selenium_EmailReport": "__Selenium_EmailReport__",
+  "Selenium_ReportWriting": "__Selenium_ReportWriting__",
+  "Selenium_ReportLocation": "__Selenium_ReportLocation__",
+  "Selenium_ReportName": "__Selenium_ReportName__",
+  "Selenium_Recipient1": "__Selenium_Recipient1__",
+  "Selenium_Recipient2": "__Selenium_Recipient2__",
+  "Selenium_Recipient3": "__Selenium_Recipient3__",
+  "Selenium_Recipient4": "__Selenium_Recipient4__",
+  "Selenium_ScreenShotLocation": "__Selenium_ScreenShotLocation__",
+  "Selenium_UserName": "__Selenium_UserName__",
+  "Selenium_Password": "__Selenium_Password__",
+  "Selenium_Email": "__Selenium_Email__"
+}

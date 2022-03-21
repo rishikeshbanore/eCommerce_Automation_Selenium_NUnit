@@ -54,9 +54,11 @@ namespace eCommerce_Automation_Selenium_NUnit
             action.MoveToElement(image).Build().Perform();
 
             objSeleniumMethodLib.clickElement(Link_add_To_Cart);
+            objSeleniumMethodLib.ThreadSleep(1500);
 
             ReportLogger.Info("Product added into Cart.");
             objSeleniumMethodLib.clickElement(Link_Proceed_To_CheckOut);
+            objSeleniumMethodLib.ThreadSleep(2000);
 
             if (Container_PageText.Text.Contains(Text) && Container_PageText.Text.Contains(Price))
             {

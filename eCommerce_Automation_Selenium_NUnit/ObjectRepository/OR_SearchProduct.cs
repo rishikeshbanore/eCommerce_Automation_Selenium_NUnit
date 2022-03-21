@@ -49,6 +49,7 @@ namespace eCommerce_Automation_Selenium_NUnit
             objSeleniumMethodLib.clickElement(Link_Home);
             objSeleniumMethodLib.ThreadSleep(4000);
             objSeleniumMethodLib.clickElement(Tab_women);
+            objSeleniumMethodLib.ThreadSleep(4000);
             objSeleniumMethodLib.clickElement(CB_Tops_LT);
             ReportLogger.Info("First Search Criteria is Set");
             objSeleniumMethodLib.ThreadSleep(4000);

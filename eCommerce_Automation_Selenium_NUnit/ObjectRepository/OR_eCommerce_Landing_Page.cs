@@ -41,6 +41,7 @@ namespace eCommerce_Automation_Selenium_NUnit
         //Locator for Radio Button Male
 
         public IWebElement RB_Male => driver.FindElement(By.Id("uniform-id_gender2"));
+
         //Locator for First Name of Customer
         public IWebElement TB_FirstName_Customer => driver.FindElement(By.Id("customer_firstname"));
 
@@ -92,27 +93,35 @@ namespace eCommerce_Automation_Selenium_NUnit
             
             IJavaScriptExecutor executor = (IJavaScriptExecutor)driver;
             executor.ExecuteScript("arguments[0].click();", RB_Male);
-            
+            objSeleniumMethodLib.ThreadSleep(1000);
             objSeleniumMethodLib.enterText(TB_FirstName_Customer,"FN"+ randomText_FirstName);
             ReportLogger.Info("Entered Randomely Generated First Name");
+            objSeleniumMethodLib.ThreadSleep(1000);
             objSeleniumMethodLib.enterText(TB_LastName_Customer, "LN" + randomText_LastName);
             ReportLogger.Info("Entered Randomely Generated Last Name");
+            objSeleniumMethodLib.ThreadSleep(1000);
             objSeleniumMethodLib.enterText(TB_Password, randomNumber_Password.ToString());
             ReportLogger.Info("Entered Randomely Generated Password");
+            objSeleniumMethodLib.ThreadSleep(1000);
             objSeleniumMethodLib.enterText(TB_Address_1, random_Text_address);
             ReportLogger.Info("Entered Randomely Generated  Address");
+            objSeleniumMethodLib.ThreadSleep(1000);
             objSeleniumMethodLib.enterText(TB_City, random_Text_City);
             ReportLogger.Info("Entered Randomely Generated City");
+            objSeleniumMethodLib.ThreadSleep(1000);
 
             objSeleniumMethodLib.clickElement(DD_State);
             objSeleniumMethodLib.SelectDropDown(DD_State_List, state);
             ReportLogger.Info("Selected State from Dropdown");
+            objSeleniumMethodLib.ThreadSleep(1000);
 
             objSeleniumMethodLib.enterText(TB_ZipCode, "10001");
             objSeleniumMethodLib.enterText(TB_Mobile_Phone,randomNumber_Mobile.ToString());
+            objSeleniumMethodLib.ThreadSleep(1000);
 
             ReportLogger.Info("Entered Random Mobile Number");
             objSeleniumMethodLib.clickElement(Button_Register);
+            objSeleniumMethodLib.ThreadSleep(1000);
 
             ReportLogger.Info("Clicked on Register Button");
             objSeleniumMethodLib.ThreadSleep(3000);

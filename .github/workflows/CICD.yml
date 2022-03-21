@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     
      - name: CheckOut Code
@@ -23,7 +23,8 @@ jobs:
        run: dotnet restore
       
      - name: Build
-       run: dotnet build --no-restore
+       run: dotnet build --configuration Release
       
      - name: Test
-       run: dotnet test --no-build --verbosity normal
+       run: dotnet test  --verbosity normal
+       working-directory: .
